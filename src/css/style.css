@@ -125,16 +125,11 @@ body {
     }
 }
 /* .services */
-.services {
+.services{
     grid-area: services;
     display: grid;
-    grid-template-columns: 1fr 1fr;  
-}
-.services h2 {
-    font-size: 4rem;
-    font-weight: 700;
-        text-align: center;
-
+    grid-template-columns: 1fr 1fr;
+    text-align: center;  
 }
 
 .services .service{
@@ -146,7 +141,7 @@ body {
     margin-bottom: 30px;
 }
 
-.services .service h3{
+.services .service h3 {
     font-size: 1.8rem;
     font-weight: 700;
 }
